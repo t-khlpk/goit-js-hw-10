@@ -10,11 +10,40 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
-}
+} 
 
 #search-box {
   font: inherit;
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+ul {
+  list-style: none;
+  padding: 8px;
+}
+.country-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.country-item {
+  display: flex;
+}
+
+.country-flag {
+  display: block;
+  width: 80px;
+}
+
+.country-name {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 8px;
+}
+
+.is-card {
+  font-size: 28px;
+  font-weight: 600;
 }
